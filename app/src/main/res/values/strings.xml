@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Ba Dum Tss</string>
+    <string name="googleAnalytics">UA-54524356-14</string>
 </resources>
