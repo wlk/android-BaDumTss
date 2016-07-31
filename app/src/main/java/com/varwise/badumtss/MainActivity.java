@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public static boolean adsEnabled = true;
     public static boolean appRateEnabled = true;
 
-        public static final Integer[] rawSoundReferences = {
+    public static final Integer[] rawSoundReferences = {
             R.raw.badumtss
     };
 
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void maybeShowAppRate() {
-        if(appRateEnabled) {
+        if (appRateEnabled) {
             AppRate.with(this)
                     .setInstallDays(1)
                     .setLaunchTimes(2)
